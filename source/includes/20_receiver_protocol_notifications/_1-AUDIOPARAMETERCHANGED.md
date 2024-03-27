@@ -1,6 +1,6 @@
 ## AUDIO\_PARAMETER\_CHANGED
 
-Audio parameter has changed
+An Audio parameter has changed
 
 
 ### Name
