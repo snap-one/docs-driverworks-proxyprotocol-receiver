@@ -2,7 +2,7 @@
 
 ![Documentation deployed?][image-1]
 
-This repository contains the source Markdown files used to build the [Driverworks Proxy/Protocol Guide][1], using the Slate build tool.
+This repository contains source Markdown files used to build the [Driverworks Proxy/Protocol Guide][1], using the Slate build tool.
 The output is currently deployed through GitHub pages.
 
 The output is regenerated whenever a Markdown file changes on the `master` branch, using GitHub actions.
