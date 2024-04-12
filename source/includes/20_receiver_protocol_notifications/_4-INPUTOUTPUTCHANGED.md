@@ -13,6 +13,7 @@ Selected inputs & outputs have changed.
 | InputBindingID  | INT  | Input Binding ID  |
 | OutputBindingID | INT  | Output Binding ID |
 
+[Notify in Templates](https://github.com/snap-one/drivers-template-code/blob/develop/proxies/receiver_proxy/receiver_proxy_notifies.lua#L32)
 
 ### Returns
 
