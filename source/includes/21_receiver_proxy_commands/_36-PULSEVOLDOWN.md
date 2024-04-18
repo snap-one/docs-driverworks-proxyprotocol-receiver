@@ -8,9 +8,9 @@ Pulse volume level down.
 `PULSE_VOL_DOWN`
 
 
-| Parameter | Description       |
-| --------- | ----------------- |
-| int       | Output Binding ID |
+| Parameter       | Type | Description       |
+| --------------- | ---- | ----------------- |
+| OutputBindingID | INT  | Output Binding ID |
 
 
 ### Returns

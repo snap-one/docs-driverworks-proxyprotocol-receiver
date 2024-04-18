@@ -8,9 +8,9 @@ Start ramping volume up.
 `SET_VOL_UP ()`
 
 
-| Parameter | Description       |
-| --------- | ----------------- |
-| int       | Output Binding ID |
+| Parameter       | Type | Description       |
+| --------------- | ---- | ----------------- |
+| OutputBindingID | INT  | Output Binding ID |
 
 
 ### Returns

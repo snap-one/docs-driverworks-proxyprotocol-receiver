@@ -8,10 +8,10 @@ Specify input and output selection of device.
 `SET_OUTPUT_INPUT ()`
 
 
-| Parameter | Description       |
-| --------- | ----------------- |
-| int       | Input Binding ID  |
-| int       | Output Binding ID |
+| Parameter        | Type | Description                                                 |
+| ---------------- | ---- | ----------------------------------------------------------- |
+| InutputBindingID | INT  | Input Binding ID - should be in the BindingID range below.  |
+| OutputBindingID  | INT  | Output Binding ID - should be in the BindingID range below. |
 
 
 ### Returns
