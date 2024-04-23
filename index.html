@@ -1974,9 +1974,14 @@ A new section called Best Practices has been added to the Proxy and Protocol Gui
 </tr>
 </thead><tbody>
 <tr>
-<td>OutputBindingID</td>
-<td>INT</td>
 <td>Output Binding ID</td>
+<td>int</td>
+<td>Optional. Output Binding ID - should be in the BindingID range in the usage note below.</td>
+</tr>
+<tr>
+<td>PATH DEV LIST</td>
+<td>str</td>
+<td>Value of the device directly upstream in the AV path.</td>
 </tr>
 </tbody></table>
 
@@ -2020,9 +2025,14 @@ A new section called Best Practices has been added to the Proxy and Protocol Gui
 </tr>
 </thead><tbody>
 <tr>
-<td>OutputBindingID</td>
-<td>INT</td>
 <td>Output Binding ID</td>
+<td>int</td>
+<td>Optional. Output Binding ID - should be in the BindingID range in the usage note below.</td>
+</tr>
+<tr>
+<td>PREV DEV LIST</td>
+<td>str</td>
+<td>Value of the device directly upstream in the AV path.</td>
 </tr>
 </tbody></table>
 
@@ -2811,14 +2821,19 @@ A new section called Best Practices has been added to the Proxy and Protocol Gui
 </tr>
 </thead><tbody>
 <tr>
-<td>InutputBindingID</td>
-<td>INT</td>
-<td>Input Binding ID - should be in the BindingID range below.</td>
+<td>Input Binding ID</td>
+<td>int</td>
+<td>Binding ID in the BindingID range below.</td>
 </tr>
 <tr>
-<td>OutputBindingID</td>
-<td>INT</td>
-<td>Output Binding ID - should be in the BindingID range below.</td>
+<td>PREV DEV LIST</td>
+<td>str</td>
+<td>Value of the device directly upstream in the AV path.</td>
+</tr>
+<tr>
+<td>Output Binding ID</td>
+<td>int</td>
+<td>Optional. Output Binding ID - should be in the BindingID range in the usage note below.</td>
 </tr>
 </tbody></table>
 
