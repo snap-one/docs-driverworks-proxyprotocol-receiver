@@ -1,4 +1,3 @@
-# docs-driverworks-proxyprotocol-receiver
- Receiver Proxy SDK documentation
+# Driverworks Proxy/Protocol Guide - receiver
 
-Should be 2 columnn output
+Receiver Proxy SDK documentation
