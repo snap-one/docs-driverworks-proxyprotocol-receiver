@@ -435,6 +435,12 @@
                   <li>
                     <a href="#receiver-capabilities-video_provider_count" class="toc-h2 toc-link" data-title="video_provider_count">video_provider_count</a>
                   </li>
+                  <li>
+                    <a href="#receiver-capabilities-surround_modes" class="toc-h2 toc-link" data-title="surround_modes">surround_modes</a>
+                  </li>
+                  <li>
+                    <a href="#receiver-capabilities-surround_mode" class="toc-h2 toc-link" data-title="surround_mode">surround_mode</a>
+                  </li>
               </ul>
           </li>
           <li>
@@ -1342,8 +1348,61 @@ Your driver can facilitate communications with multiple types of proxies for a s
 </tr>
 </tbody></table>
 
-<p><h3 id='receiver-capabilities-video_provider_count-example'>Example</h3><div class="highlight"><pre class="highlight xml tab-xml"><code><span class="nt">&lt;capabilities&gt;</span>
+<h3 id='receiver-capabilities-video_provider_count-example'>Example</h3><div class="highlight"><pre class="highlight xml tab-xml"><code><span class="nt">&lt;capabilities&gt;</span>
    <span class="nt">&lt;video_provider_count&gt;</span>8<span class="nt">&lt;/video_provider_count&gt;</span>
+<span class="nt">&lt;/capabilities&gt;</span>
+</code></pre></div>
+<h2 id='receiver-capabilities-surround_modes'>surround_modes</h2>
+<p>This is a child capability of <code>has_discrete_surround_mode_select</code>. It is the parent XML entry for all of the surround modes (<code>&lt;surround_mode&gt;</code>)defined by the driver. </p>
+<h3 id='receiver-capabilities-surround_modes-signature'>Signature</h3>
+
+<p><code>&lt;surround_modes&gt;&lt;/surround_modes&gt;</code></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>XML</td>
+<td>Surround Mode entries</td>
+</tr>
+</tbody></table>
+
+<h3 id='receiver-capabilities-surround_modes-example'>Example</h3><div class="highlight"><pre class="highlight xml tab-xml"><code><span class="nt">&lt;capabilities&gt;</span>
+   <span class="nt">&lt;has_discrete_surround_mode_select&gt;</span>True<span class="nt">&lt;/has_discrete_surround_mode_select&gt;</span>
+        <span class="nt">&lt;surround_modes&gt;</span>
+            <span class="nt">&lt;surround_mode&gt;&lt;/surround_mode&gt;</span>
+    <span class="nt">&lt;/surround_modes&gt;</span>
+<span class="nt">&lt;/capabilities&gt;</span>
+</code></pre></div>
+<h2 id='receiver-capabilities-surround_mode'>surround_mode</h2>
+<p>This is a child capability of <code>&lt;surround_modes&gt;</code>. It is the root XML entry for a surround mode defined by the driver. It contains two elements: the name of the surround mode being defined and its identifying value.</p>
+<h3 id='receiver-capabilities-surround_mode-signature'>Signature</h3>
+
+<p><code>&lt;surround_mode&gt;&lt;/surround_mode&gt;</code></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>XML</td>
+<td>Surround Mode entry</td>
+</tr>
+</tbody></table>
+
+<p><h3 id='receiver-capabilities-surround_mode-example'>Example</h3><div class="highlight"><pre class="highlight xml tab-xml"><code><span class="nt">&lt;capabilities&gt;</span>
+   <span class="nt">&lt;has_discrete_surround_mode_select&gt;</span>True<span class="nt">&lt;/has_discrete_surround_mode_select&gt;</span>
+        <span class="nt">&lt;surround_modes&gt;</span>
+            <span class="nt">&lt;surround_mode&gt;</span>
+                <span class="nt">&lt;name&gt;</span>5ch Stereo<span class="nt">&lt;/name&gt;</span>
+                <span class="nt">&lt;id&gt;</span>1<span class="nt">&lt;/id&gt;</span><br>
+            <span class="nt">&lt;/surround_mode&gt;</span>
+    <span class="nt">&lt;/surround_modes&gt;</span>
 <span class="nt">&lt;/capabilities&gt;</span>
 </code></pre></div></p>
 <h1 id='receiver-protocol-notifications'>Receiver Protocol Notifications</h1>
