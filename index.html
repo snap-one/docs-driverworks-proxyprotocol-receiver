@@ -397,6 +397,9 @@
                     <a href="#receiver-capabilities-has_discrete_loudness_control" class="toc-h2 toc-link" data-title="has_discrete_loudness_control">has_discrete_loudness_control</a>
                   </li>
                   <li>
+                    <a href="#receiver-capabilities-has_discrete_surround_mode_select" class="toc-h2 toc-link" data-title="has_discrete_surround_mode_select">has_discrete_surround_mode_select</a>
+                  </li>
+                  <li>
                     <a href="#receiver-capabilities-has_discrete_mute_control" class="toc-h2 toc-link" data-title="has_discrete_mute_control">has_discrete_mute_control</a>
                   </li>
                   <li>
@@ -716,10 +719,11 @@
           </li>
       </ul>
         <ul class="toc-footer">
+            <li><a href='https://github.com/snap-one/docs-driverworks'>DriverWorks GitHub Home</a></li>
             <li><a href='https://snap-one.github.io/docs-driverworks-introduction/'>An Introduction to DriverWorks</a></li>
             <li><a href='https://snap-one.github.io/docs-driverworks-fundamentals/'>DriverWorks Fundamentals Guide</a></li>
             <li><a href='https://snap-one.github.io/docs-driverworks-api/'>DriverWorks API Reference Guide</a></li>
-            <li><a href='https://github.com/snap-one/docs-driverworks'>DriverWorks GitHub Home</a></li>
+            <li><a href='https://snap-one.github.io/docs-driverworks-xml/'>DriverWorks XML Reference</a></li>
             <li><a href='https://github.com/lord/slate'>Documentation Powered by Slate</a></li>
         </ul>
     </div>
@@ -1054,6 +1058,27 @@ Your driver can facilitate communications with multiple types of proxies for a s
 
 <h3 id='receiver-capabilities-has_discrete_loudness_control-example'>Example</h3><div class="highlight"><pre class="highlight xml tab-xml"><code><span class="nt">&lt;capabilities&gt;</span>
    <span class="nt">&lt;has_discrete_loudness_control&gt;</span>true<span class="nt">&lt;/has_discrete_loudness_control&gt;</span>
+<span class="nt">&lt;/capabilities&gt;</span>
+</code></pre></div>
+<h2 id='receiver-capabilities-has_discrete_surround_mode_select'>has_discrete_surround_mode_select</h2>
+<p>This capability must be declared True to support surround modes in conjunction with the use of the receiver proxy. </p>
+<div class="highlight"><pre class="highlight xml tab-xml"><code>Signature
+</code></pre></div>
+<p><code>&lt;has_discrete_surround_mode_select&gt;&lt;/has_discrete_surround_mode_select&gt;</code></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>bool</td>
+<td>True/False</td>
+</tr>
+</tbody></table>
+<h3 id='receiver-capabilities-has_discrete_surround_mode_select-example'>Example</h3><div class="highlight"><pre class="highlight xml tab-xml"><code><span class="nt">&lt;capabilities&gt;</span>
+   <span class="nt">&lt;has_discrete_surround_mode_select&gt;</span>True<span class="nt">&lt;/has_discrete_surround_mode_select&gt;</span>
 <span class="nt">&lt;/capabilities&gt;</span>
 </code></pre></div>
 <h2 id='receiver-capabilities-has_discrete_mute_control'>has_discrete_mute_control</h2>
