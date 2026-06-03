@@ -11,7 +11,7 @@ Numerical value of the output. Switch the output to passed ID.
 | Parameter         | Type | Description                                                                             |
 | ----------------- | ---- | --------------------------------------------------------------------------------------- |
 | Output Binding ID | int  | Optional. Output Binding ID - should be in the BindingID range in the usage note below. |
-| PATH DEV LIST     | str  | Value of the device directly upstream in the AV path.                                   |
+| PREV DEV LIST     | str  | Value of the device directly upstream in the AV path.                                   |
 
 
 ### Returns
